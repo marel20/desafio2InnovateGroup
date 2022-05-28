@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Roboto', sans-serif; */
+body{
+    background-color: #F6F6F6;
+}
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 95%;
+    margin: 0 auto;
+    background-color: black;
+    height: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.col-70{
+    width: 70%;
+}
+.col-50{
+    width: 50%;
+}
+.col-30{
+    width: 30%;
+}
+/*--- Navbar Style ---*/
+.header{
+    background-color: coral;
+    height: 10vh;
+    margin: 2%;
+}
+/*--- Navbar Style ---*/
+
+
+/*--- Rectangulo 3 Style ---*/
+.rectangle3{
+    background-color: yellow;
+    height: 10vh;
+    margin: 2%;
+}
+/*--- Rectangulo 3 Style ---*/
+
+
+/*--- Div Headphones Style ---*/
+.group440{
+    background-color: blue;
+    height: 40vh;
+    margin: 2%;
+}
+.Heads{
+    background-color: tomato;
+    height: 40vh;
+}
+
+/*--- Div Headphones Style ---*/
+
+
+/*--- Div Group435 Style ---*/
+.group435{
+    background-color: chocolate;
+    height: 15vh;
+    margin: 2%;
+}
+.group435 > .related{
+    background-color: burlywood;
+    height: 15vh;
+}
+.group435 > .buyNow{
+    background-color: slateblue;
+    height: 15vh;
+}
+/*--- Div Group435 Style ---*/
+
+
+/*--- Footer Style ---*/
+.footer{
+    background-color: firebrick;
+    height: 65vh;
+    margin: 2%;
+}
+.footer > .rectangle25{
+    width: 100%;
+    background-color: orchid;
+    height: 65vh;
+    margin: 2%;
+}
+.footer > .skills{
+    width: 100%;
+    background-color: indigo;
+    height: 65vh;
+    margin: 2%;
+}
+/*--- Footer Style ---*/
