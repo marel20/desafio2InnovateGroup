@@ -12,8 +12,6 @@ body{
     flex-flow: column nowrap;
     width: 95%;
     margin: 0 auto;
-    background-color: black;
-    height: 100%;
 }
 .row{
     display: flex;
@@ -26,8 +24,14 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: nowrap;
+}
+.hidden{
+    display: none;
+}
+.visible{
+    display: block;
 }
 .col-70{
     width: 70%;
@@ -38,71 +42,106 @@ body{
 .col-30{
     width: 30%;
 }
+.nav-li{
+    list-style: none;
+    margin: 0 5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    text-decoration: none;
+}
 /*--- Navbar Style ---*/
 .header{
-    background-color: coral;
-    height: 10vh;
     margin: 2%;
+    justify-content: space-between;
 }
+
 /*--- Navbar Style ---*/
 
 
 /*--- Rectangulo 3 Style ---*/
 .rectangle3{
-    background-color: yellow;
-    height: 10vh;
     margin: 2%;
+    background-color: #FBFBFB;
+    top: 5.1875rem;
+    left: 2.25rem;
+    width: 18.875rem;
+    height: 2.125rem;
+}
+.rectangle3 > nav > ul{margin-left: -23%;}
+.rectangle3 > nav > ul > li > a{text-decoration: none;}
+.active{
+    background-color: #3AFCE9;
+    padding: 0.6875rem;
+    border-radius: 0.625rem;
+    font-weight: bold;
+    line-height: 1rem;  
 }
 /*--- Rectangulo 3 Style ---*/
 
 
 /*--- Div Headphones Style ---*/
 .group440{
-    background-color: blue;
-    height: 40vh;
     margin: 2%;
-}
-.Heads{
-    background-color: tomato;
-    height: 40vh;
+    mix-blend-mode: normal;
+    align-items: flex-start;
 }
 
+.components{margin-left: 80%; margin-top: 10%; align-items: center;}
+.components > a{
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    text-decoration: none;
+    margin: 40% 0;
+    color: #234154;
+    font-size: 0.75rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 0.875rem;
+}
+.arrows{
+    margin: 20% 60%;
+}
 /*--- Div Headphones Style ---*/
 
 
 /*--- Div Group435 Style ---*/
 .group435{
-    background-color: chocolate;
-    height: 15vh;
     margin: 2%;
 }
-.group435 > .related{
-    background-color: burlywood;
-    height: 15vh;
+.group435 > .related > img{
+    top: 703px;
+    left: 24px;
+    width: 192px;
+    height: 75px;
 }
-.group435 > .buyNow{
-    background-color: slateblue;
-    height: 15vh;
+.group435 > .buyNow > img{
+    position: fixed;
+    line-height: 64px;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+    z-index: 100;
+}
+.buyy{
+    width: 40.3125rem;
+    height: 6.9375rem;
+    background-color: #29E6A2;
+    border-radius: 30px 0px 0px 0px;
+    justify-content: space-around;
+    align-items: center;
 }
 /*--- Div Group435 Style ---*/
 
 
 /*--- Footer Style ---*/
 .footer{
-    background-color: firebrick;
-    height: 65vh;
     margin: 2%;
 }
 .footer > .rectangle25{
     width: 100%;
-    background-color: orchid;
-    height: 65vh;
     margin: 2%;
 }
 .footer > .skills{
     width: 100%;
-    background-color: indigo;
-    height: 65vh;
     margin: 2%;
 }
 /*--- Footer Style ---*/
