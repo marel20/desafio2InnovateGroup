@@ -1,22 +1,12 @@
 /*-- Start Media queries --*/
 /*-- 480px --*/
 @media (min-width: 0rem) and (max-width: 37.4375rem) {
-    .hidden{
-        display: none;
-    }
-    .visible{
-        display: block;
-    }
-  }
+
+}
 
         /*-- 768px --*/
 @media (min-width: 37.5rem) and (max-width: 61.6875rem) {
-    .hidden{
-        display: none;
-    }
-    .visible{
-        display: block;
-    }
+
 }
 
         /*-- 1279px --*/
@@ -41,6 +31,19 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: -1%;
+    }
+    .footer > .rectangle25{
+        width: 60%;
+    }
+    .footer > .skills{
+        width: 40%;
     }
 }
 
@@ -72,12 +75,13 @@
         flex-direction: row;
         align-items: flex-start;
         justify-content: center;
+        margin-top: -1%;
     }
     .footer > .rectangle25{
-        width: 70%;
+        width: 60%;
     }
     .footer > .skills{
-        width: 30%;
+        width: 40%;
     }
 }
   /*----------End Media Queries-----*/
