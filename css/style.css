@@ -56,8 +56,7 @@ body{
 /*--- Rectangulo 3 Style ---*/
 .rectangle3{
     background-color: #FBFBFB;
-    top: 5.1875rem;
-    left: 2.25rem;
+    margin-top: 1.5625rem;
     width: 18.875rem;
     height: 2.125rem;
 }
@@ -78,12 +77,44 @@ body{
     mix-blend-mode: normal;
     align-items: flex-start;
     background: transparent url('../assets/img/heads.png') no-repeat padding-box;
+    background-size: 100% 100%;
+    background-position: center 5rem;
+    height: 31.875rem;
+}
+.headphones{
+    margin-top: 1.4375rem;
+}
+.headphones > h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
     color: #234154;
-    width: 100%;
-    height: auto;
+}
+.heart{
+    top: 9.625rem;
+    left: 19.875rem;
+    position: absolute;
+}
+.new{
+    margin-right: 0.625rem;
+    width: 2.125rem;
+    height: 1.3125rem;
+    color: #299FB3;
+    font-family: 'Roboto', sans-serif;
+    border: 0.0625rem solid #299FB3;
+    text-align: center;
+}
+.off{
+    height: 1.3125rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #29E6A2;
+    line-height: 1.3125rem;
 }
 
-.components{margin-left: 80%; margin-top: 10%; align-items: center;}
+.components{margin-left: 80%; margin-top: 80%; align-items: center;}
 .components > a{
     transform: matrix(0, -1, 1, 0, 0, 0);
     text-decoration: none;
@@ -94,7 +125,7 @@ body{
     line-height: 0.875rem;
 }
 .arrows{
-    margin: 20% 60%;
+    margin: 55% 0 0 60%;
 }
 /*--- Div Headphones Style ---*/
 
@@ -113,24 +144,101 @@ body{
     position: fixed;
     bottom: 0rem;
     right: 0rem;
-    z-index: 100;
+    z-index: 1500;
 }
 .group435 > .buyy{
     width: 40%;
     height: 6.9375rem;
     background-color: #29E6A2;
     border-radius: 1.875rem 0rem 0rem 0rem;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding: 1%;
+}
+.group435 > .BackToTop{
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    background: #414141 no-repeat padding-box;
+    width: 6.375rem;
+    height: 1.375rem;
+    position: fixed;
+    bottom: 0rem;
+    right: 0rem;
+    z-index: 100;
+}
+.group435 > .BackToTop > a > h5{
+    padding: 3%;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1rem;
 }
 /*--- Div Group435 Style ---*/
 
 
 /*--- Footer Style ---*/
+.footer{
+    margin-top: 10%;
+}
 .footer > .rectangle25{
     width: 100%;
+    background: linear-gradient(to bottom, #299FB3, #3AFCE9);
+    z-index: 1000;
+    padding: 10%;
+    margin-top: 1%;
+    font-family: 'Roboto', sans-serif;
+}
+.footer > .rectangle25 > h1{
+    color: #234154;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 3.3125rem;
+}
+.footer > .rectangle25 > p{
+    font-size: 0.625rem;
+    text-align: left;
+    color: #FFFFFF;
+    line-height: 0.8125rem;
+}
+.footer > .rectangle26{
+    background: linear-gradient(to bottom, #3AFCE9, #3AFCE900);
+    z-index: 1000;
+}
+.imgMen{
+
 }
 .footer > .skills{
+    background-color: #234154;
     width: 100%;
+    height: 15.875rem;
+    font-family: 'Roboto', sans-serif; 
+}
+.footer > .skills > h1{
+    color: #2EFE7C;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 3.3125rem;
+    margin: .5625rem 0 0 1.25rem;
+}
+.footerIcons{
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 1.5625rem;
+}
+.footerIcons > a > img{
+    width: 1.5625rem;
+    height: 1.5625rem;
+}
+.footerIcons > a > .refresh{height: 1.25rem;}
+.footerIcons > a > .refresh{width: 1.5rem; height: 1.5rem;}
+.footer > .skills > p{
+    width: 9.125rem;
+    height: 4.875rem;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 0.625rem;
+    line-height: 0.8125rem;
+    letter-spacing: 0.0075rem;
+    margin-top: 2.1875rem;
+    margin-left: 1.25rem;
 }
 /*--- Footer Style ---*/

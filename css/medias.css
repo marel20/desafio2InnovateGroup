@@ -19,6 +19,8 @@
     }
     .group440{
         background: transparent url('../assets/img/headphones.png') no-repeat padding-box;
+        background-size: 100% 130%;
+        background-position: initial;
     }
     .group435 > .related > img{
         top: 57.0625rem;
@@ -57,6 +59,8 @@
     }
     .group440{
         background: transparent url('../assets/img/headphones.png') no-repeat padding-box;
+        background-size: 170% 100%;
+        background-position: left;
     }
     .group435 > .related > img{
         top: 57.0625rem;
