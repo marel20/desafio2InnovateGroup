@@ -61,7 +61,7 @@ body{
     height: 2.125rem;
 }
 .rectangle3 > nav > ul{margin-left: -23%;}
-.rectangle3 > nav > ul > li > a{text-decoration: none;}
+.rectangle3 > nav > ul > li > a{text-decoration: none; color: #234154;}
 .active{
     background-color: #3AFCE9;
     padding: 0.6875rem;
@@ -203,9 +203,9 @@ body{
     background: linear-gradient(to bottom, #3AFCE9, #3AFCE900);
     z-index: 1000;
 }
-.imgMen{
+/*.imgMen{
 
-}
+} */
 .footer > .skills{
     background-color: #234154;
     width: 100%;
