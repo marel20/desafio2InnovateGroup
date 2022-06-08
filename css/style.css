@@ -33,36 +33,36 @@
     
     /* Character Styles */
     .styleFont1 {
-    font-family: var(--family-roboto);
-    font-style: var(--style-normal);
-    font-weight: var(--weight-normal);
-    font-size: var(--fontS);
-    line-height: var(--line-spacing-M);
-    letter-spacing: var(--unnamed-character-spacing-0);
+        font-family: var(--family-roboto);
+        font-style: var(--style-normal);
+        font-weight: var(--weight-normal);
+        font-size: var(--fontS);
+        line-height: var(--line-spacing-M);
+        letter-spacing: var(--unnamed-character-spacing-0);
     }
     .styleFont3 {
-    font-family: var(--family-roboto);
-    font-style: var(--style-normal);
-    font-weight: var(--weight-bold);
-    font-size: var(--fontL);
-    line-height: var(--line-spacing-L);
-    letter-spacing: var(--unnamed-character-spacing-0);
+        font-family: var(--family-roboto);
+        font-style: var(--style-normal);
+        font-weight: var(--weight-bold);
+        font-size: var(--fontL);
+        line-height: var(--line-spacing-L);
+        letter-spacing: var(--unnamed-character-spacing-0);
     }
     .styleFont4 {
-    font-family: var(--family-roboto);
-    font-style: var(--style-normal);
-    font-weight: var(--weight-bold);
-    font-size: var(--fontXL);
-    line-height: var(--line-spacing-XL);
-    letter-spacing: var(--unnamed-character-spacing-0);
+        font-family: var(--family-roboto);
+        font-style: var(--style-normal);
+        font-weight: var(--weight-bold);
+        font-size: var(--fontXL);
+        line-height: var(--line-spacing-XL);
+        letter-spacing: var(--unnamed-character-spacing-0);
     }
     .styleFont5 {
-    font-family: var(--family-roboto);
-    font-style: var(--style-normal);
-    font-weight: var(--weight-bold);
-    font-size: var(--fontXXL);
-    line-height: var(--line-spacing-XXL);
-    letter-spacing: var(--unnamed-character-spacing-0);
+        font-family: var(--family-roboto);
+        font-style: var(--style-normal);
+        font-weight: var(--weight-bold);
+        font-size: var(--fontXXL);
+        line-height: var(--line-spacing-XXL);
+        letter-spacing: var(--unnamed-character-spacing-0);
     }
 
 body{
@@ -130,7 +130,6 @@ body{
     padding: 0.6875rem;
     border-radius: 0.625rem;
     font-weight: var(--weight-bold);
-    line-height: var(--line-spacing-S);  
 }
 /*--- Rectangulo 3 Style ---*/
 
@@ -141,7 +140,7 @@ body{
     align-items: flex-start;
     background: transparent url('../assets/img/heads.png') no-repeat padding-box;
     background-size: 100% 100%;
-    background-position: center 5rem;
+    background-position: center;
     height: 31.875rem;
 }
 .headphones{
@@ -239,10 +238,14 @@ body{
 .footer{
     margin-top: 10%;
 }
-.footer >.rectangles >  .rectangle25{
+.rectangles{
+    background: transparent url(../assets/img/men.png) padding-box no-repeat;
+    background-size: cover;
+    background-position: center 5rem;
+}
+.footer >.rectangles > .rectangle25{
     width: 100%;
     background: linear-gradient(to bottom, var(--light-blue), var(--aqua));
-    z-index: 1000;
     padding: 10%;
     font-family: var(--family-roboto);
 }
@@ -259,7 +262,6 @@ body{
     background: linear-gradient(to bottom, var(--aqua), #3AFCE900);
     height: 9.1875rem;
     margin-top: -0.3%;
-    z-index: 1000;
 }
 .rectangles > .icon{
     margin-left: 56.5%;

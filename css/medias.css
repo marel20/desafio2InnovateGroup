@@ -60,7 +60,7 @@
     }
     .group440{
         background: transparent url('../assets/img/headphones.png') no-repeat padding-box;
-        background-size: 120% 100%;
+        background-size: 120% 105%;
         background-position: -120%;
     }
     .headphones{
@@ -112,10 +112,17 @@
     .footer > .rectangles{
         width: 60%;
         height: 43vw;
+        background: transparent url(../assets/img/men2.png) padding-box no-repeat;
+        background-size: 150% 150%;
+        background-position: center;
     }
-    .imgMen2{
-        max-width: 80%;
-        margin-top: -39%;
+    .footer >.rectangles >  .rectangle25 > p{
+        width: 27.1875rem;
+        height: 8.875rem;
+        font-size: var(--fontL);
+        line-height: var(--line-spacing-XL);
+        text-align: left;
+        color: #000000;
     }
     .footer > .skills{
         width: 40%;
