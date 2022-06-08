@@ -72,7 +72,6 @@ body{
     display: flex;
     flex-flow: column nowrap;
     margin: 0 auto;
-    overflow-x: hidden;
 }
 .row{
     display: flex;
@@ -109,8 +108,7 @@ body{
 
 /*--- Navbar Style ---*/
 .header{
-    margin: 2% 0;
-    padding: 3%;
+    margin: 1% 5%;
     justify-content: space-between;
 }
 
@@ -121,7 +119,7 @@ body{
 .rectangle3{
     background-color: #FBFBFB;
     margin-top: 1.5625rem;
-    margin-left: 2%;
+    margin-left: 5%;
     width: 18.875rem;
     height: 2.125rem;
 }
@@ -148,18 +146,19 @@ body{
 }
 .headphones{
     margin-top: 9%;
-    margin-left: 2%
+    margin-left: 10%
 }
 .headphones > div > h2{
     color: var(--dark-blue);
 }
 .heart{
-    top: 10.625rem;
-    left: 19.875rem;
-    position: absolute;
+    margin-top: 19%;
+    margin-left: 590%;
+}
+.newOff{
+    margin-left: 10%;
 }
 .new{
-    margin-left: 5%;
     width: 2.125rem;
     height: 1.3125rem;
     color: var(--light-blue);
@@ -174,7 +173,7 @@ body{
     color: var(--light-green);
 }
 
-.components{margin-left: 73%; margin-top: 80%; align-items: center;}
+.components{margin-left: 73%; margin-top: 70%; align-items: center;}
 .components > a{
     transform: matrix(0, -1, 1, 0, 0, 0);
     text-decoration: none;
@@ -218,8 +217,8 @@ body{
     width: 6.375rem;
     height: 1.375rem;
     position: fixed;
-    bottom: 3.5rem;
-    right: 0rem;
+    bottom: 2.5rem;
+    right: -2.5rem;
     z-index: 100;
     text-align: center;
 }
@@ -240,33 +239,33 @@ body{
 .footer{
     margin-top: 10%;
 }
-.footer > .rectangle25{
+.footer >.rectangles >  .rectangle25{
     width: 100%;
     background: linear-gradient(to bottom, var(--light-blue), var(--aqua));
     z-index: 1000;
     padding: 10%;
     font-family: var(--family-roboto);
 }
-.footer > .rectangle25 > h1{
+.footer >.rectangles >  .rectangle25 > h1{
     color: var(--dark-blue);
 }
-.footer > .rectangle25 > p{
+.footer >.rectangles >  .rectangle25 > p{
     font-size: var(--fontS);
     text-align: left;
     color: #FFFFFF;
     line-height: var(--line-spacing-S);
 }
-.footer > .rectangle26{
+.footer >.rectangles >  .rectangle26{
     background: linear-gradient(to bottom, var(--aqua), #3AFCE900);
     height: 9.1875rem;
     margin-top: -0.3%;
     z-index: 1000;
 }
-.icon{
+.rectangles > .icon{
     margin-left: 56.5%;
     position: absolute;
 }
-.imgMen{
+.rectangles > .imgMen{
     margin-top: -47%;
     margin-left: -27%;
 }

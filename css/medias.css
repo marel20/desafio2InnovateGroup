@@ -22,6 +22,7 @@
         background-size: 100% 130%;
         background-position: initial;
     }
+
     .group435 > .related > img{
         top: 57.0625rem;
         left: 20.4375rem;
@@ -59,8 +60,35 @@
     }
     .group440{
         background: transparent url('../assets/img/headphones.png') no-repeat padding-box;
-        background-size: 170% 100%;
-        background-position: left;
+        background-size: 120% 100%;
+        background-position: -120%;
+    }
+    .headphones{
+        margin-left: 35%
+    }
+    .newOff{
+        margin-left: 35%;
+    }
+    .textHidden{
+        width: 18.75rem;
+        height: 6.5625rem;
+        font-family: var(--family-roboto);
+        font-style: var(--style-normal);
+        font-weight: var(--weight-normal);
+        font-size: var(--fontS);
+        line-height: var(--line-spacing-L);
+        color: black;
+        margin-top: 11%;
+        margin-left: 35%;
+    }
+    .components{
+        margin-left: 85%; 
+        margin-top: 15%; 
+        align-items: center;
+    }
+    .arrows{
+        margin-top: 10%;
+        margin-left: 40%;
     }
     .group435 > .related > img{
         top: 57.0625rem;
@@ -79,13 +107,19 @@
         flex-direction: row;
         align-items: flex-start;
         justify-content: center;
-        margin-top: -1%;
+        margin-top: -0.5%;
     }
-    .footer > .rectangle25{
+    .footer > .rectangles{
         width: 60%;
+        height: 43vw;
+    }
+    .imgMen2{
+        max-width: 80%;
+        margin-top: -39%;
     }
     .footer > .skills{
         width: 40%;
+        height: 43vw;
     }
 }
   /*----------End Media Queries-----*/
