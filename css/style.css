@@ -139,8 +139,8 @@ body{
     mix-blend-mode: normal;
     align-items: flex-start;
     background: transparent url('../assets/img/heads.png') no-repeat padding-box;
-    background-size: 100% 100%;
-    background-position: center;
+    background-size: 90% 90%;
+    background-position: 10% 150%;
     height: 31.875rem;
 }
 .headphones{
@@ -202,13 +202,16 @@ body{
     z-index: 1500;
 }
 .group435 > .buyy{
-    width: 40%;
+    width: 35%;
     height: 6.9375rem;
     background-color: var(--light-green);
     border-radius: 1.875rem 0rem 0rem 0rem;
     justify-content: flex-start;
     align-items: center;
     padding: 1%;
+}
+.imgBuyy{
+    max-width: 100%;
 }
 .group435 > .BackToTop{
     transform: matrix(0, -1, 1, 0, 0, 0);
@@ -241,12 +244,13 @@ body{
 .rectangles{
     background: transparent url(../assets/img/men.png) padding-box no-repeat;
     background-size: cover;
-    background-position: center 5rem;
+    background-position: bottom;
 }
 .footer >.rectangles > .rectangle25{
     width: 100%;
+    height: 226px;
     background: linear-gradient(to bottom, var(--light-blue), var(--aqua));
-    padding: 10%;
+    padding: 4%;
     font-family: var(--family-roboto);
 }
 .footer >.rectangles >  .rectangle25 > h1{
@@ -263,7 +267,7 @@ body{
     height: 9.1875rem;
     margin-top: -0.3%;
 }
-.rectangles > .icon{
+.rectangles > .rectangle26 > .icon{
     margin-left: 56.5%;
     position: absolute;
 }
