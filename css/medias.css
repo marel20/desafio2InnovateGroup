@@ -1,10 +1,5 @@
 /*-- Start Media queries --*/
-/*-- 480px --*/
-@media (min-width: 0rem) and (max-width: 37.4375rem) {
-
-}
-
-        /*-- 768px --*/
+      /*-- 768px --*/
 @media (min-width: 37.5rem) and (max-width: 61.6875rem) {
     .group440{
         background: transparent url('../assets/img/heads.png') no-repeat padding-box;
@@ -12,7 +7,10 @@
         background-position: 50% 390%;
     }
     .arrows{
-        margin: 0 0 0 40%;
+        margin-left: 40%;
+    }
+    .footer > .rectangles > .icon{
+        margin: 12% 63%;
     }
 }
 
@@ -38,27 +36,19 @@
     .textHidden{
         width: 18.75rem;
         height: 6.5625rem;
-        font-family: var(--family-roboto);
-        font-style: var(--style-normal);
-        font-weight: var(--weight-normal);
-        font-size: var(--fontS);
         line-height: var(--line-spacing-L);
         color: black;
-        margin-top: 11%;
-        margin-left: 35%;
+        margin: 11% 0 0 35%;
     }
     .components{
-        margin-left: 85%; 
-        margin-top: 15%; 
+        margin: 15% 0 0 85%;
         align-items: center;
     }
     .arrows{
-        margin-top: 10%;
-        margin-left: 65%;
+        margin: 25% 0 0 60%;
     }
     .group435 > .related > img{
-        top: 57.0625rem;
-        left: 20.4375rem;
+        margin: 3% 2%;
         width: 20.3125rem;
         height: 7.5rem;
     }
@@ -73,29 +63,33 @@
         flex-direction: row;
         align-items: flex-start;
         justify-content: center;
-        margin-top: -0.5%;
+        margin-top: -2.1%;
     }
     .footer > .rectangles{
         width: 65%;
-        height: 43vw;
-      /*  background: transparent url(../assets/img/men2.png) padding-box no-repeat;
-        background-size: 95% 95%;
-        background-position: 390% 150%; */
+        height: 35vw;
+        background: transparent url('../assets/img/men2.png') no-repeat padding-box;
+        background-size: cover;
+        background-position: 80% 30%;
     }
-    .rectangles > .rectangle25 > .eye{
-        margin-top: 14%;
+    .rectangles::before{
+        content: "";
+        background: linear-gradient(to bottom, #299FB3B8, #00FFE6B8, #3AFCE900);
+        width: 65%;
+        height: 23vw;
     }
-    .footer >.rectangles >  .rectangle25 > p{
-        width: 18.75rem;
+    .footer >.rectangles > p{
+        width: 40%;
         height: 8.875rem;
-        font-size: var(--fontS);
+        font-size: var(--fontM);
         line-height: var(--line-spacing-L);
+        letter-spacing: .0225rem;
         text-align: left;
         color: #000000;
     }
     .footer > .skills{
         width: 35%;
-        height: 43vw;
+        height: 35vw;
     }
     .footer > .skills > h1{
         margin-top: 6%;
@@ -104,8 +98,9 @@
     .footer > .skills > p{
         width: 15.625rem;
         height: 9.6875rem;
-        font-size: var(--fontS);
+        font-size: var(--fontM);
         line-height: var(--line-spacing-L);
+        letter-spacing: .0225rem;
         text-align: left;
         margin-left: 8%;
     }
@@ -133,10 +128,6 @@
     .textHidden{
         width: 18.75rem;
         height: 6.5625rem;
-        font-family: var(--family-roboto);
-        font-style: var(--style-normal);
-        font-weight: var(--weight-normal);
-        font-size: var(--fontS);
         line-height: var(--line-spacing-L);
         color: black;
         margin-top: 11%;
@@ -152,8 +143,7 @@
         margin-left: 50%;
     }
     .group435 > .related > img{
-        top: 57.0625rem;
-        left: 20.4375rem;
+        margin: 3% 2%;
         width: 20.3125rem;
         height: 7.5rem;
     }
@@ -168,29 +158,33 @@
         flex-direction: row;
         align-items: flex-start;
         justify-content: center;
-        margin-top: -0.5%;
+        margin-top: -1.9%;
     }
     .footer > .rectangles{
         width: 65%;
-        height: 30vw;
-       /* background: transparent url(../assets/img/men2.png) padding-box no-repeat;
+        height: 35vw;
+        background: transparent url('../assets/img/men2.png') no-repeat padding-box;
         background-size: cover;
-        background-position: center;*/
+        background-position: 80% 30%;
     }
-    .rectangles > .rectangle25 > .eye{
-        margin-top: 14%;
+    .rectangles::before{
+        content: "";
+        background: linear-gradient(to bottom, #299FB3B8, #00FFE6B8, #3AFCE900);
+        width: 65%;
+        height: 23vw;
     }
-    .footer >.rectangles >  .rectangle25 > p{
-        width: 27.1875rem;
+    .footer >.rectangles > p{
+        width: 42%;
         height: 8.875rem;
         font-size: var(--fontM);
         line-height: var(--line-spacing-XL);
+        letter-spacing: .0225rem;
         text-align: left;
         color: #000000;
     }
     .footer > .skills{
         width: 35%;
-        height: 30vw;
+        height: 35vw;
     }
     .footer > .skills > h1{
         margin-top: 7%;
@@ -199,8 +193,9 @@
     .footer > .skills > p{
         width: 26.125rem;
         height: 9.6875rem;
-        font-size: var(--fontM);
+        font-size: var(--fontL);
         line-height: var(--line-spacing-XL);
+        letter-spacing: .0225rem;
         text-align: left;
         margin-left: 8%;
     }

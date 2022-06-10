@@ -259,13 +259,12 @@ body{
     text-align: left;
     color: #FFFFFF;
     line-height: var(--line-spacing-S);
-    width: 17.25rem;
+    width: 77%;
     height: 3.25rem;
     margin: 1% 0 0 8%;
 }
 .footer > .rectangles > .icon{
-    margin: 85% 44.5%;
-    position: absolute;
+    margin: 31% 44.5%;
 }
 .footer > .skills{
     background-color: var(--dark-blue);
