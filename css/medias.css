@@ -78,9 +78,9 @@
     .footer > .rectangles{
         width: 65%;
         height: 43vw;
-        background: transparent url(../assets/img/men2.png) padding-box no-repeat;
+      /*  background: transparent url(../assets/img/men2.png) padding-box no-repeat;
         background-size: 95% 95%;
-        background-position: 390% 150%;
+        background-position: 390% 150%; */
     }
     .rectangles > .rectangle25 > .eye{
         margin-top: 14%;
@@ -173,9 +173,9 @@
     .footer > .rectangles{
         width: 65%;
         height: 30vw;
-        background: transparent url(../assets/img/men2.png) padding-box no-repeat;
+       /* background: transparent url(../assets/img/men2.png) padding-box no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: center;*/
     }
     .rectangles > .rectangle25 > .eye{
         margin-top: 14%;
