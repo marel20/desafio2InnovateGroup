@@ -82,6 +82,9 @@ body{
     align-items: flex-start;
     flex-wrap: nowrap;
 }
+.index1000{
+    z-index: 1000;
+}
 .hidden{
     display: none;
 }
@@ -235,7 +238,6 @@ body{
     height: 36.875rem;
     font-family: var(--family-roboto);
     justify-content: flex-start;
-    z-index: 1000;
 }
 .rectangles::before{
     content: "";
@@ -245,17 +247,11 @@ body{
     position: absolute;
     opacity: 1;
 }
-.rectangles > .eye{
-    z-index: 1000;
-    margin: 10% 0 0 8%;
-}
-.rectangles > .share{
-    z-index: 1000;
+.rectangles > a{
     margin: 5% 0 0 8%;
 }
 .footer >.rectangles > h1{
     color: var(--dark-blue);
-    z-index: 1000;
     margin: 1% 0 0 8%;
 }
 .footer > .rectangles >  p{
@@ -266,12 +262,10 @@ body{
     width: 17.25rem;
     height: 3.25rem;
     margin: 1% 0 0 8%;
-    z-index: 1000;
 }
 .footer > .rectangles > .icon{
     margin: 85% 44.5%;
     position: absolute;
-    z-index: 1000;
 }
 .footer > .skills{
     background-color: var(--dark-blue);
